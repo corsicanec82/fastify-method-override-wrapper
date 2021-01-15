@@ -1,0 +1,34 @@
+{
+  "name": "fastify-method-override-wrapper",
+  "version": "0.0.1",
+  "description": "fastify wrapper for override http verbs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf lib",
+    "build": "babel src --out-dir dist --source-maps",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corsicanec82/fastify-method-override-wrapper.git"
+  },
+  "keywords": [
+    "override",
+    "http",
+    "verbs",
+    "fastify",
+    "wrapper"
+  ],
+  "author": "Stanislav Dzisiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corsicanec82/fastify-method-override-wrapper/issues"
+  },
+  "homepage": "https://github.com/corsicanec82/fastify-method-override-wrapper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
