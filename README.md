@@ -1,7 +1,7 @@
 # fastify-method-override-wrapper
 
 [![github action status](https://github.com/corsicanec82/fastify-method-override-wrapper/workflows/Node%20CI/badge.svg)](https://github.com/corsicanec82/fastify-method-override-wrapper/actions)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c0c97dff8bda4e288123f08b3bd45fe7)](https://www.codacy.com/manual/corsicanec82/fastify-method-override?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=corsicanec82/fastify-method-override&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/42d88e5305a2463ebacf8acc93c643c6)](https://www.codacy.com/gh/corsicanec82/fastify-method-override-wrapper/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=corsicanec82/fastify-method-override-wrapper&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/corsicanec82/fastify-method-override-wrapper/branch/main/graph/badge.svg?token=PO0FKHV8ZO)](https://codecov.io/gh/corsicanec82/fastify-method-override-wrapper)
 [![npm version](https://badge.fury.io/js/fastify-method-override-wrapper.svg)](https://badge.fury.io/js/fastify-method-override-wrapper)
 
@@ -10,7 +10,7 @@
 ## Install
 
 ```sh
-$ npm install fastify-method-override-wrapper
+npm install fastify-method-override-wrapper
 ```
 
 ## Usage
