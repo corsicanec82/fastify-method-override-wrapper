@@ -26,7 +26,7 @@ const app = wrappedFastify({
 });
 ```
 
-To override the HTTP method, use the HTML form with the hidden _method field and the value of the target method:
+To override the HTTP method, use the HTML form with the URL with the overridden method as the value of that query string key.
 
 ```html
 <form method="POST" action="/url/?_method=DELETE">
