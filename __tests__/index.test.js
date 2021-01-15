@@ -8,7 +8,7 @@ describe('fastify wrapper', () => {
 
   beforeAll(() => {
     const wrappedFastify = wrapFastify(fastify);
-    app = wrappedFastify();
+    app = wrappedFastify({ logger: true });
 
     methods.forEach((method) => {
       app.route({
