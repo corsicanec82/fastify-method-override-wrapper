@@ -41,4 +41,8 @@ describe('fastify wrapper', () => {
       expect(actual).toEqual(expected);
     });
   });
+
+  afterAll(() => {
+    app.close();
+  });
 });
