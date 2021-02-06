@@ -1,6 +1,6 @@
 {
   "name": "fastify-method-override-wrapper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "fastify wrapper for override http verbs in case the client doesn't support them",
   "main": "dist/index.js",
   "scripts": {
