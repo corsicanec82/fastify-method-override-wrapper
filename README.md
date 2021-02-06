@@ -26,10 +26,10 @@ const app = wrappedFastify({
 });
 ```
 
-To override the HTTP method, use the HTML form with the URL with the overridden method as the value of that query string key.
+To override an HTTP method, use an HTML form with the overridden method in the query string of the URL.
 
 ```html
 <form method="POST" action="/url/?_method=DELETE">
-  <button type="submit">Submit</button>
+  <input type="submit" value="Submit">
 </form>
 ```
