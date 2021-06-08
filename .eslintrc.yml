@@ -11,3 +11,6 @@ parser: babel-eslint
 env:
   node: true
   jest: true
+
+rules:
+  import/extensions: 0
